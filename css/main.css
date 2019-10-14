@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;   
+    margin: 5% auto;
+    width: 80%;
+    
+}
+body{
+    background-repeat: no-repeat;
+    /* background-position-y: 30%;
+    background-position-x: 20%; */
+    /* background-size: contain; */
+}
+
+img{
+    margin-left: 30%;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+#X{
+  
+}
