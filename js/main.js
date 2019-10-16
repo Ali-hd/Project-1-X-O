@@ -69,13 +69,13 @@ let check2 = 0
           if (count % 2 == 0) {
             p1win.push($(this).attr("id"));
             img = $(this).attr("id");
-            $("#" + img).css("background-image", "url(../X1.png)");
+            $("#" + img).css("background-image", "url(X1.png)");
             $("#playerX").hide();
             $("#playerO").show();
           } else {
             p2win.push($(this).attr("id"));
             img = $(this).attr("id");
-            $("#" + img).css("background-image", "url(../O1.png)");
+            $("#" + img).css("background-image", "url(O1.png)");
             $("#playerO").hide();
             $("#playerX").show();
           }
@@ -85,13 +85,13 @@ let check2 = 0
           if (count % 2 == 0) {
             p1win.push($(this).attr("id"));
             img = $(this).attr("id");
-            $("#" + img).css("background-image", "url(../O1.png)");
+            $("#" + img).css("background-image", "url(O1.png)");
             $("#playerO").hide();
             $("#playerX").show();
           } else {
             p2win.push($(this).attr("id"));
             img = $(this).attr("id");
-            $("#" + img).css("background-image", "url(../X1.png)");
+            $("#" + img).css("background-image", "url(X1.png)");
             $("#playerX").hide();
             $("#playerO").show();
           }
@@ -101,7 +101,7 @@ let check2 = 0
           p1win.push($(this).attr("id"));
           comwin.push($(this).attr("id"));
           img = $(this).attr("id");
-          $("#" + img).css("background-image", "url(../X1.png)");
+          $("#" + img).css("background-image", "url(X1.png)");
           check();
     
           if (count != 8) {
@@ -116,7 +116,7 @@ let check2 = 0
             comwin.push(rand);
             console.log("This is comwin " + comwin);
     
-            $("#" + rand).css("background-image", "url(../O1.png)");
+            $("#" + rand).css("background-image", "url(O1.png)");
     
             count += 2;
             check();
