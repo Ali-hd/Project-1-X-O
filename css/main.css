@@ -2,20 +2,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;   
-    margin: 5% auto;
-    width: 80%;
+    /* margin: 5% auto; */
+    margin: 5% 15% 5% 34%;
+    width: 19%;
     
 }
 body{
     background-repeat: no-repeat;
+    background-color:crimson;
     /* background-position-y: 30%;
     background-position-x: 20%; */
     /* background-size: contain; */
 }
 
-img{
+.emt{
     margin-left: 30%;
+    visibility: hidden;
 }
+
+/* img{
+    width: 150px;
+} */
 
 .option{
     display: flex;
@@ -24,7 +31,52 @@ img{
     margin-top: 10%;
     margin-bottom: 10px;
 }
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.slots{
+    /* background-image: url(../empty.JPG); */
+    /* background-color: rebeccapurple; */
+    width: 150px;
+    background-color:bisque;
+    /* background-repeat: no-repeat; */
+   
+    
+}
 
 #X{
   
+}
+
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#reset{
+    font-size: 10px;
+    text-align:center;
+    margin-left: 49%;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
